@@ -76,6 +76,3 @@
   - Call-to-action buttons are visible and functional on both desktop and mobile
 
 ---
-
-### Notes:
-- **User notifications missing:** The user does not receive a notification when a visitor exchanges their contact information. This could be an enhancement to improve user awareness.
