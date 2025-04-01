@@ -2,7 +2,7 @@
 This repository contains my submission for the QA Analyst Take-Home Assessment.
 
 ## Overview
-The goal of this project was to manually test the Linq profile sharing feature as a visitor and analyze its behavior using browser dev tools and Postman.
+The goal of this project is to manually test the Linq profile feature from a visitor’s perspective — specifically, viewing a profile and attempting to save contact information. This includes analyzing behavior using browser dev tools and Postman.
 
 ---
 
@@ -31,9 +31,9 @@ The goal of this project was to manually test the Linq profile sharing feature a
 ---
 
 ## Notes
-To complete the assessment, I first created a user profile on Linq to act as the recipient of contact exchanges.
+To complete the assessment, I first created a user profile on Linq.
 Then, I conducted testing from the perspective of a visitor (not logged in) by:
-- Accessing the public profile link
+- Accessing the user's public profile link
 - Exchanging and downloading contact information
 - Inspecting API calls primarily via Google Chrome DevTools, and later verified some endpoints in Postman
 
