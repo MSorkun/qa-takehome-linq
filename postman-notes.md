@@ -25,8 +25,9 @@ I used Postman to inspect key API endpoints related to Linq’s public profile c
   item1.X-ABLabel: Linq
   END:VCARD
 
-### This endpoint works without login or authentication and exposes full personal data, including phone and email.
-### This may expose user data publicly to anyone with the profile link.
+- **Findings and Concerns**
+This endpoint works without login or authentication and exposes full personal data, including phone and email.
+This may expose user data publicly to anyone with the profile link.
 
 ---
  
@@ -67,8 +68,9 @@ I used Postman to inspect key API endpoints related to Linq’s public profile c
   }
  
 
-### The API accepted the POST without any authentication and returned detailed contact data in the response.
-### This endpoint allows modification of user data without verification.
+- **Findings and Concerns**
+The API accepted the POST without any authentication and returned detailed contact data in the response.
+It would be beneficial to require authentication when sharing contact cards with a user.
 
 ---
 
@@ -90,7 +92,8 @@ I used Postman to inspect key API endpoints related to Linq’s public profile c
   }
   
 
-### This is expected and confirms that access to user-specific data is appropriately restricted.
+- **Findings and Concerns**
+This is expected and confirms that access to user-specific data is appropriately restricted.
 
 ---
 
