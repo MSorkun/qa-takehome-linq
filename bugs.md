@@ -14,8 +14,7 @@
   - The system should not display "Contact Saved" if no information is provided.
 - **Actual Behavior:**
   - The "Contact Saved" message appears even when no information is entered.
-- **Severity:** High
-- **Screenshot:** !["Contact Saved" Message Appears Without Saving Information](BUG001-ContactSavedMessageWithoutSaving.png)
+- **Screenshot:** !["Contact Saved" Message Appears Without Saving Information](screenshots/BUG001-ContactSavedMessageAppearedWithoutSaving.png)
 
 ---
 
@@ -32,8 +31,7 @@
   - The system should not show the "Contact Saved" message if the contact download was canceled.
 - **Actual Behavior:**
   - The "Contact Saved" message is displayed even though the download was canceled and the contact was not saved.
-- **Severity:** Medium
-- **Screenshot:** !["You just saved Mert's contact" message after canceling download](BUG002-ConfirmationMessageAppearsAfterCancelingtheDownload.png)
+- **Screenshot:** !["You just saved Mert's contact" message after canceling download](screenshots/BUG002-ConfirmationMessageAppearsAfterCancelingtheDownload.png)
 
 ---
 
