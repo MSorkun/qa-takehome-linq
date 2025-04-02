@@ -8,7 +8,7 @@
 - **Steps to Reproduce:**
   1. Open the profile page as a visitor (e.g., https://linqapp.com/mert_sorkun7).
   2. Click "Exchange Contact" but do not fill out any information (leave the fields empty).
-  3. Click "Save" or attempt to close the pop-up window.
+  3. Press ESC to close the pop-up window.
   4. Observe that the system shows a "Contact Saved" confirmation even though no data was submitted.
 - **Expected Behavior:**
   - The system should not display "Contact Saved" if no information is provided.
